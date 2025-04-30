@@ -7,6 +7,7 @@
     <enableConversationMining>false</enableConversationMining>
     <enableDiarizationPref>false</enableDiarizationPref>
     <enableGenerativeConvInsights>false</enableGenerativeConvInsights>
+    <enableManualUpload>false</enableManualUpload>
     <enableOpptyMatching>false</enableOpptyMatching>
     <enableUnifiedActivities>false</enableUnifiedActivities>
 </ConversationalIntelligenceSettings>

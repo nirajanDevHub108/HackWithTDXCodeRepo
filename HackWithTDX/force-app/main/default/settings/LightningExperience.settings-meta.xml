@@ -4,6 +4,7 @@
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
     <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
+    <enableDeferRenderingWorkspacePage>true</enableDeferRenderingWorkspacePage>
     <enableErrorExperienceEnabled>false</enableErrorExperienceEnabled>
     <enableFeedbackInMobile>false</enableFeedbackInMobile>
     <enableHideOpenInQuip>false</enableHideOpenInQuip>
@@ -19,6 +20,7 @@
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
     <enableLEXOnIpadEnabled>true</enableLEXOnIpadEnabled>
     <enableLexEndUsersNoSwitching>true</enableLexEndUsersNoSwitching>
+    <enableLightningPreviewPref>false</enableLightningPreviewPref>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
     <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>
     <enableQuip>false</enableQuip>

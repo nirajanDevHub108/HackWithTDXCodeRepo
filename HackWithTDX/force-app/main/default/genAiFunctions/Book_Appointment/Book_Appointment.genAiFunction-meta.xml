@@ -4,5 +4,7 @@
     <invocationTarget>BookAppointmentAction</invocationTarget>
     <invocationTargetType>apex</invocationTargetType>
     <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
     <masterLabel>Book Appointment</masterLabel>
+    <progressIndicatorMessage>Default</progressIndicatorMessage>
 </GenAiFunction>

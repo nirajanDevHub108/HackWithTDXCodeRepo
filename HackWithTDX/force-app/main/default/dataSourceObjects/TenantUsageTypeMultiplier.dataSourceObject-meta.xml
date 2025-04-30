@@ -3,5 +3,6 @@
     <dataSource>SalesforceDotCom_Home</dataSource>
     <externalRecordIdentifier>TenantUsageTypeMultiplier</externalRecordIdentifier>
     <masterLabel>TenantUsageTypeMultiplier</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

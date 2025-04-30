@@ -3,5 +3,6 @@
     <dataSource>Salesforce_Home</dataSource>
     <externalRecordIdentifier>DataCategory</externalRecordIdentifier>
     <masterLabel>DataCategory</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

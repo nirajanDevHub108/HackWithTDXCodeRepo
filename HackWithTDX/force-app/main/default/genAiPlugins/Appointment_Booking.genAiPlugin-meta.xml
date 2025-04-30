@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
     <description>This topic handles the process of booking appointments in the system. It includes user requests to select a time slot, provide customer details (name, email, and phone), and confirm the booking. The system ensures that the slot is available, associates the customer with the slot, and returns the appointment details or error messages if applicable.</description>
     <developerName>Appointment_Booking</developerName>
     <genAiFunctions>

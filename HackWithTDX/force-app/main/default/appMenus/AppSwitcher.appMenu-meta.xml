@@ -240,4 +240,8 @@
         <name>standard__EasyHome</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Service_Appoinmnet</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

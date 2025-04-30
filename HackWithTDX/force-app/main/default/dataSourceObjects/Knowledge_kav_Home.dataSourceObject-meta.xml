@@ -3,5 +3,6 @@
     <dataSource>Salesforce_Home</dataSource>
     <externalRecordIdentifier>Knowledge__kav</externalRecordIdentifier>
     <masterLabel>Knowledge__kav</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

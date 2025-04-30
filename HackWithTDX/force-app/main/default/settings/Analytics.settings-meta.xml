@@ -15,6 +15,8 @@
     <enableAutonomousExperience>true</enableAutonomousExperience>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCrmaDataCloudIntegration>false</enableCrmaDataCloudIntegration>
+    <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
+    <enableDashboardCmpRefreshPref>false</enableDashboardCmpRefreshPref>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDashboardToPDFEnable>false</enableDashboardToPDFEnable>
@@ -35,10 +37,12 @@
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
+    <enableReportCdnPref>true</enableReportCdnPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>false</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableReportSubOrgEmailPref>false</enableReportSubOrgEmailPref>
+    <enableReportingOnSDMPref>false</enableReportingOnSDMPref>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
     <enableS3OutputConnector>false</enableS3OutputConnector>
     <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>

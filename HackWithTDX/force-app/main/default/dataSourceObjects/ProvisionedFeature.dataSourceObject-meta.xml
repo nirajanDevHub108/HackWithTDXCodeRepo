@@ -3,5 +3,6 @@
     <dataSource>SalesforceDotCom_Home</dataSource>
     <externalRecordIdentifier>ProvisionedFeature</externalRecordIdentifier>
     <masterLabel>ProvisionedFeature</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

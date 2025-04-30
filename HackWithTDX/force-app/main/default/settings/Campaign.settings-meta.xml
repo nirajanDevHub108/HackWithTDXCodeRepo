@@ -9,5 +9,6 @@
     <enableCampaignInfluence2>true</enableCampaignInfluence2>
     <enableCampaignMemberTWCF>true</enableCampaignMemberTWCF>
     <enableEKAI>false</enableEKAI>
+    <enableOpportunityInfluence>false</enableOpportunityInfluence>
     <enableSuppressNoValueCI2>false</enableSuppressNoValueCI2>
 </CampaignSettings>

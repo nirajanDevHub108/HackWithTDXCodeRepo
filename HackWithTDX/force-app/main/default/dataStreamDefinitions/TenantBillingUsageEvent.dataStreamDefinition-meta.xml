@@ -12,4 +12,14 @@
     <masterLabel>TenantBillingUsageEventStream</masterLabel>
     <mktDataLakeObject>TenantBillingUsageEvent__dll</mktDataLakeObject>
     <mktDataTranObject>TenantBillingUsageEvent</mktDataTranObject>
+    <parameters>
+        <fullName>TenantBillingUsageEvent_incrementalColumn</fullName>
+        <paramName>incrementalColumn</paramName>
+        <value>Event Time</value>
+    </parameters>
+    <parameters>
+        <fullName>TenantBillingUsageEvent_objectName</fullName>
+        <paramName>objectName</paramName>
+        <value>TenantBillingUsageEvent</value>
+    </parameters>
 </DataStreamDefinition>

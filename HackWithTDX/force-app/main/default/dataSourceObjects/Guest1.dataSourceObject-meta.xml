@@ -149,5 +149,6 @@
     <masterLabel>Guest</masterLabel>
     <objectType>Object</objectType>
     <sourceObject>Guest__dll</sourceObject>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

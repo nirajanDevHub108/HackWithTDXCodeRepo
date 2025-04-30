@@ -345,5 +345,6 @@
     <masterLabel>Reservation</masterLabel>
     <objectType>Object</objectType>
     <sourceObject>Reservation__dll</sourceObject>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

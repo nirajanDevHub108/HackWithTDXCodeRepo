@@ -266,5 +266,6 @@
     <objectCategory>Directory_Table</objectCategory>
     <objectType>Object</objectType>
     <sourceObject>Resort_Information__dll</sourceObject>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

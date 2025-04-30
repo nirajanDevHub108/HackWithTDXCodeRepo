@@ -3,5 +3,6 @@
     <dataSource>SalesforceDotCom_Home</dataSource>
     <externalRecordIdentifier>TenantEntitlementTransaction</externalRecordIdentifier>
     <masterLabel>TenantEntitlementTransaction</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

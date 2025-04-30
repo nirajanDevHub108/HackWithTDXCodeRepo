@@ -3,5 +3,6 @@
     <dataSource>Salesforce_Home</dataSource>
     <externalRecordIdentifier>CurrencyType</externalRecordIdentifier>
     <masterLabel>CurrencyType</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

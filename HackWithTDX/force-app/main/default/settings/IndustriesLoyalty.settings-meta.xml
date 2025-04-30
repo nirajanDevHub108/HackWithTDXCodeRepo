@@ -4,6 +4,7 @@
     <enableAutomaticVoucherCodeGeneration>true</enableAutomaticVoucherCodeGeneration>
     <enableFixedTypeNQPAggregation>false</enableFixedTypeNQPAggregation>
     <enableLoyaltyApiAccessForExternalSiteUsers>false</enableLoyaltyApiAccessForExternalSiteUsers>
+    <enableLoyaltyGenerativeAi>false</enableLoyaltyGenerativeAi>
     <enableLoyaltyRedeemedPointsExpirationInfoPref>false</enableLoyaltyRedeemedPointsExpirationInfoPref>
     <enableLoyaltyRulesVerifyCdpMemberSegment>false</enableLoyaltyRulesVerifyCdpMemberSegment>
     <enableLoyaltyServiceExcellence>false</enableLoyaltyServiceExcellence>
@@ -11,5 +12,7 @@
     <enableNegativePointBalance>false</enableNegativePointBalance>
     <enableNonQualifyingPointsConsolidation>true</enableNonQualifyingPointsConsolidation>
     <enablePointsLifecycleTracking>false</enablePointsLifecycleTracking>
+    <enablePromSetupProcRuleStatusInheritDplymt>false</enablePromSetupProcRuleStatusInheritDplymt>
     <enableQPRealTimePointBalance>true</enableQPRealTimePointBalance>
+    <enableSegmentQueryByDataGraph>false</enableSegmentQueryByDataGraph>
 </IndustriesLoyaltySettings>

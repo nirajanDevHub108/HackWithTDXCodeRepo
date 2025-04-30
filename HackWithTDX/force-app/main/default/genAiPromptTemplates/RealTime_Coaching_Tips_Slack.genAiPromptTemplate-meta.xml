@@ -24,6 +24,7 @@ Based on this information, suggest 1-2 real-time coaching tips the sales rep can
         </inputs>
         <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
         <status>Draft</status>
+        <versionIdentifier>nhPSoqKB+IryHE6XnlpkgN5qewVBiuJwFBy1UrEVtnU=_1</versionIdentifier>
     </templateVersions>
     <type>einstein_gpt__fieldCompletion</type>
     <visibility>Global</visibility>

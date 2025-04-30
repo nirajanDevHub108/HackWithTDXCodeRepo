@@ -4,4 +4,5 @@
     <enableFinancePeriod>false</enableFinancePeriod>
     <enablePaymentMethodAdjust>false</enablePaymentMethodAdjust>
     <enableScheduledJob>false</enableScheduledJob>
+    <enableSkipReversalLogic>false</enableSkipReversalLogic>
 </AccountingSettings>

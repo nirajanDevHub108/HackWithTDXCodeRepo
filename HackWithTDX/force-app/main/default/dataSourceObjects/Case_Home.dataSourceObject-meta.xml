@@ -3,5 +3,6 @@
     <dataSource>Salesforce_Home</dataSource>
     <externalRecordIdentifier>Case</externalRecordIdentifier>
     <masterLabel>Case</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

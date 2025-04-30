@@ -524,5 +524,6 @@
     <masterLabel>Contact</masterLabel>
     <objectType>Object</objectType>
     <sourceObject>Contact__dll</sourceObject>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

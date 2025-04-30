@@ -3,5 +3,6 @@
     <dataSource>Salesforce_Home</dataSource>
     <externalRecordIdentifier>Knowledge__DataCategorySelection</externalRecordIdentifier>
     <masterLabel>Knowledge__DataCategorySelection</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

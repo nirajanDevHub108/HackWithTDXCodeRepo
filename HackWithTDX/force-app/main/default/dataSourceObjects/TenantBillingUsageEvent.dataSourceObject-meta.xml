@@ -3,5 +3,6 @@
     <dataSource>TenantBillingUsageEvent</dataSource>
     <externalRecordIdentifier>TenantBillingUsageDataTransportEntity</externalRecordIdentifier>
     <masterLabel>TenantBillingUsageDataTransportEntity</masterLabel>
+    <storageType>LOCAL</storageType>
     <templateVersion>1</templateVersion>
 </DataSourceObject>

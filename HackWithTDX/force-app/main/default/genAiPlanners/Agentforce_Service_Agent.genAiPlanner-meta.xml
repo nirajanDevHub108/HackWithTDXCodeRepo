@@ -7,6 +7,21 @@
     <genAiPlugins>
         <genAiPluginName>Appointment_Booking</genAiPluginName>
     </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Appointment_Details</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Customer_Comment_Analysis</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Fetch_Slot</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Resource_Information_Retrieval</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Slot_Details_Retrieval</genAiPluginName>
+    </genAiPlugins>
     <masterLabel>Agentforce Service Agent</masterLabel>
     <plannerType>AiCopilot__ReAct</plannerType>
 </GenAiPlanner>
