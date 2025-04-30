@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentType>Employee</agentType>
     <botMlDomain>
         <label>Agentforce (Default)</label>
         <name>Copilot_for_Salesforce</name>
@@ -41,7 +42,9 @@
             <messageType>Line</messageType>
         </contextVariableMappings>
         <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser Id</description>
         <developerName>EndUserId</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>End User Id</label>
     </contextVariables>
     <contextVariables>
@@ -81,7 +84,9 @@
             <messageType>Facebook</messageType>
         </contextVariableMappings>
         <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingSession Id</description>
         <developerName>RoutableId</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>Routable Id</label>
     </contextVariables>
     <contextVariables>
@@ -121,7 +126,9 @@
             <messageType>Facebook</messageType>
         </contextVariableMappings>
         <dataType>Text</dataType>
+        <description>This variable may also be referred to as MessagingSession EndUserLanguage</description>
         <developerName>EndUserLanguage</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>End User Language</label>
     </contextVariables>
     <contextVariables>
@@ -161,7 +168,9 @@
             <messageType>Facebook</messageType>
         </contextVariableMappings>
         <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser ContactId</description>
         <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>Contact Id</label>
     </contextVariables>
     <description>An AI assistant for in-org business tasks.</description>

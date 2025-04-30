@@ -48,28 +48,43 @@
     </conversationSystemDialogs>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>The API name of the Salesforce object (such as Account or Opportunity) associated with the record the user wants to interact with. Do not use this if the user is already talking about another object in the conversation.</description>
         <developerName>currentObjectApiName</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>Current Object Api Name</label>
+        <visibility>External</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>Salesforce Application Name.</description>
         <developerName>currentAppName</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>Current App Name</label>
+        <visibility>External</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>The ID of the record on the user&apos;s screen. It may not relate to the user&apos;s input. Only use this if the user input mentions &apos;this&apos;, &apos;current&apos;, &apos;the record&apos;, etc. If in doubt, don&apos;t use it.</description>
         <developerName>currentRecordId</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>Current Record Id</label>
+        <visibility>External</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>Type of Salesforce Page.</description>
         <developerName>currentPageType</developerName>
+        <includeInPrompt>true</includeInPrompt>
         <label>Current Page Type</label>
+        <visibility>External</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>This variable may also be referred to as VerifiedCustomerId</description>
         <developerName>VerifiedCustomerId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>Verified Customer ID</label>
+        <visibility>Internal</visibility>
     </conversationVariables>
     <entryDialog>Welcome</entryDialog>
     <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
@@ -77,4 +92,5 @@
     <knowledgeActionEnabled>false</knowledgeActionEnabled>
     <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
     <smallTalkEnabled>false</smallTalkEnabled>
+    <surfacesEnabled>false</surfacesEnabled>
 </BotVersion>
