@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This topic handles the process of booking appointments in the system. It includes user requests to select a time slot, provide customer details (name, email, and phone), and confirm the booking. The system ensures that the slot is available, associates the customer with the slot, and returns the appointment details or error messages if applicable.</description>
+    <developerName>Appointment_Booking</developerName>
+    <genAiFunctions>
+        <functionName>Book_Appointment</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Appointment Creation:
+
+Update the slot&apos;s status to &quot;Booked.&quot;
+Create a new appointment record (Appointment__c) associated with the customer and the slot.</description>
+        <developerName>instruction_appointmen0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_appointmen0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Customer Validation:
+
+Search for an existing contact using the provided email and phone.
+If a matching contact is not found, create a new contact with the provided details.</description>
+        <developerName>instruction_customerva1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_customerva1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Input Validation: Ensure the request includes the following:
+
+Customer Name (customerName)
+Customer Email (email)
+Customer Phone (phone)
+Slot Name (slotName)</description>
+        <developerName>instruction_inputvalid2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_inputvalid2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Response Preparation:
+
+Include the appointment ID, slot name, customer details (name, email, phone), appointment date and time, and a status message.
+Handle errors gracefully by returning a status message detailing the issue.</description>
+        <developerName>instruction_responsepr3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_responsepr3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Return Results:
+
+For successful bookings, provide the full appointment details.
+For failed bookings, provide the appropriate error message.</description>
+        <developerName>instruction_returnresu4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_returnresu4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Slot Query: Query the Slot__c object to retrieve the slot details based on the provided slotName.</description>
+        <developerName>instruction_slotqueryq5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_slotqueryq5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Slot Validation:
+
+If the slot does not exist, return an error message.
+If the slot exists but is not available (Status__c != &apos;Available&apos;), return an error message indicating the slot is unavailable.</description>
+        <developerName>instruction_slotvalida6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_slotvalida6</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Appointment Booking</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to handle user requests for booking appointments after the user has selected a specific slot by its name. This includes:
+
+Validating the availability of the selected slot.
+Checking for an existing customer based on the provided email and phone details or creating a new contact if none exists.
+Booking the appointment by associating the customer with the slot and updating the slot&apos;s status to &quot;Booked.&quot;
+Returning the appointment details, including the customer name, slot name, appointment date and time, and a status message indicating success or failure.</scope>
+</GenAiPlugin>

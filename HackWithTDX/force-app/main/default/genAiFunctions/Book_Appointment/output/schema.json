@@ -1,0 +1,69 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "appointmentDateTime" : {
+      "title" : "appointmentDateTime",
+      "description" : "The exact date and time of the booked appointment. This is derived from the slot's date and start time. Display this output in a human-readable Date Time format (e.g., 2025-01-02 10:00 AM).",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "appointmentId" : {
+      "title" : "appointmentId",
+      "description" : "The unique identifier of the created appointment record. Display this as plain text to allow users to reference the appointment.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "customerName" : {
+      "title" : "customerName",
+      "description" : "The customer’s full name as entered during the booking process. Display this to confirm the booking details.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "email" : {
+      "title" : "email",
+      "description" : "The customer’s email address as provided during booking. Display this to confirm the booking details.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "phone" : {
+      "title" : "phone",
+      "description" : "The customer’s phone number as provided during booking. Display this to confirm the booking details.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "slotName" : {
+      "title" : "slotName",
+      "description" : "The name of the booked slot as fetched from the system. Display this to confirm the booking details.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "statusMessage" : {
+      "title" : "statusMessage",
+      "description" : "A message indicating the status of the booking operation (e.g., Booking Successful, Slot Not Available). Display this to inform the user of the outcome of their booking request.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

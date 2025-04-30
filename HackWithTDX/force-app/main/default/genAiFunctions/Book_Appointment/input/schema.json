@@ -1,0 +1,35 @@
+{
+  "required" : [ "customerName", "email", "phone", "slotName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "customerName" : {
+      "title" : "customerName",
+      "description" : "The customer’s full name is required for booking the appointment. Ensure that the input is a valid string containing only alphabetic characters and spaces. Collect data directly from the user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "email" : {
+      "title" : "email",
+      "description" : "The email address of the customer is required to validate the existing contact or create a new one. Ensure the input is in a valid email format (e.g., example@domain.com). Collect data directly from the user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "phone" : {
+      "title" : "phone",
+      "description" : "The phone number of the customer is required for identifying the existing contact or creating a new one. Ensure the input contains only numeric characters and matches a valid phone number format. Collect data directly from the user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "slotName" : {
+      "title" : "slotName",
+      "description" : "The name of the slot selected by the customer is required to fetch the corresponding slot record. Verify that the slot exists in the system and is marked as available. Collect data directly from the user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
